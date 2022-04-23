@@ -68,7 +68,6 @@ public class CsvUtil {
                 System.out.println(reader.getRawRecord());
                 csvFileList.add(reader.getValues());
             }
-
             // 遍历读取的CSV文件
             for (String[] strings : csvFileList) {
                 // 取得第row行第0列的数据
